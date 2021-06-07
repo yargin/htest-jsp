@@ -38,7 +38,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -79,7 +78,21 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.example.testjsp.TestJspApplication</mainClass>
+                </configuration>
             </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.heroku.sdk</groupId>-->
+<!--                <artifactId>heroku-maven-plugin</artifactId>-->
+<!--                <version>2.0.13</version>-->
+<!--                <configuration>-->
+<!--                    <appName>htest-jsp</appName>-->
+<!--                    <processTypes>-->
+<!--                        <web>web: sh target/bin/webapp</web>-->
+<!--                    </processTypes>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
