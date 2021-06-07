@@ -64,7 +64,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.getjavajob.training.yarginy.socialnetwork.web.WebApplication</mainClass>
+                            <mainClass>com.example.testjsp.TestJspApplication</mainClass>
                             <name>webapp</name>
                         </program>
                     </programs>
