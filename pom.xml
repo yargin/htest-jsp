@@ -32,12 +32,14 @@
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -48,6 +50,7 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -75,10 +78,13 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <mainClass>com.example.testjsp.TestJspApplication</mainClass>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
